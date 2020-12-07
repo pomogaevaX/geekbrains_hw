@@ -20,7 +20,7 @@ class Matrix():
         self.list_matrix = list_matrix
 
     def __str__(self):
-        matrix_str = ''
+        matrix_str = ' '
         for i in range(self.size):
             for j in range(self.size):
                 matrix_str = matrix_str + f'{self.list_matrix[i][j]} '

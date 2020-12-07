@@ -51,6 +51,7 @@ class Cell:
                 print('*' * self.box)
             self.box = self.box - cell_count
 
+
 a = Cell(12)
 b = Cell(4)
 c = Cell(6)
